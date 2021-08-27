@@ -4,7 +4,7 @@ void setup() {
   background(173, 216, 230);
  }
  
-void draw() ,{
+void draw() {
   int x = 250;
   int y = 350;
   //lillypad
