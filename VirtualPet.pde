@@ -16,16 +16,20 @@ void draw() {
   //frog legs + feet
   fill(131, 181, 50);
   ellipse(x, y + 60, 80, 50);
-  push();
+  //push();
   translate(x + 40, y + 60);
   rotate(PI/4);
   ellipse(0, 0, 30, 60);
-  pop();
-  push();
+  //pop();
+  translate(-x - 40, -y - 60);
+  rotate(-PI/4);
+  //push();
   translate(x - 40, y + 60);
   rotate(3*PI/4);
   ellipse(0, 0, 30, 60);
-  pop();
+  //pop();
+  translate(-x + 40, -y - 60);
+  rotate(-3*PI/4);
   //frog body
   ellipse(x + 40, y + 80, 50, 10);
   ellipse(x - 40, y + 80, 50, 10);
@@ -38,22 +42,28 @@ void draw() {
   noStroke();
   fill(142, 198, 63);
   //frog fingers
-  push();
+  //push();
   translate(x + 20, y + 89);
   ellipse(-7.5, 0, 15, 6);
   rotate(5*PI/3);
   ellipse(-7.5, 0, 15, 6);
   rotate(5*PI/3);
   ellipse(-7.5, 0, 15, 6);
-  pop();
-  push();
+  //pop();
+  translate(-x - 20, -y - 89);
+  rotate(-5*PI/3);
+  rotate(-5*PI/3);
+  //push();
   translate(x - 20, y + 89);
   ellipse(7.5, 0, 15, 6);
   rotate(PI/3);
   ellipse(7.5, 0, 15, 6);
   rotate(PI/3);
   ellipse(7.5, 0, 15, 6);
-  pop();
+  //pop();
+  translate(-x + 20, -y - 89);
+  rotate(-PI/3);
+  rotate(-PI/3);
   //frog head + face
   ellipse(x, y - 40, 120, 80);
   ellipse(x + 45, y - 75, 30, 30);
