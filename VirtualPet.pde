@@ -97,10 +97,9 @@ line(523, 316, 543, 316);
   //legs
   noStroke();
   fill(254,148,65);
-  rotate(PI/4.0);
-  ellipse(544 ,267, 50, 75);
-    ellipse(714 ,75, 90, 50);
-  
+
+  ellipse(197 ,566, 60, 90);
+   ellipse(460 ,569, 70, 50);
 
   
 }
