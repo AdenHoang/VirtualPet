@@ -5,6 +5,12 @@ size(800, 800);
 void draw()
 { 
    background(1, 80, 80);
+ //legs
+  noStroke();
+  fill(254,148,65);
+ellipse(197 ,566, 60, 90);
+ellipse(460 ,569, 70, 50);
+
   //head
    fill(254,148,65);
    noStroke();
@@ -87,18 +93,7 @@ line(410, 235, 377, 268);
 line(90, 300, 108, 300);
 line(88, 308, 108, 308);
 line(90, 316, 108, 316);
-
 line(523, 300, 543, 300);
 line(523, 308, 546, 308);
-line(523, 316, 543, 316);
-    System.out.print(mouseX);
-
-  
-  //legs
-  noStroke();
-  fill(254,148,65);
-ellipse(197 ,566, 60, 90);
-ellipse(460 ,569, 70, 50);
-
-  
+line(523, 316, 543, 316);  
 }
