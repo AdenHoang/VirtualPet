@@ -5,11 +5,6 @@ size(800, 800);
 void draw()
 { 
    background(1, 80, 80);
- //legs
-  noStroke();
-  fill(254,148,65);
-ellipse(197 ,566, 60, 90);
-ellipse(460 ,569, 70, 50);
 
   //head
    fill(254,148,65);
@@ -60,7 +55,11 @@ fill(255,255,255);
       ellipse(690,280, 120,200);
       fill(241, 95, 62);
       ellipse(690,295, 80,170);
-
+ //legs
+  noStroke();
+  fill(254,148,65);
+ellipse(197 ,566, 60, 90);
+ellipse(460 ,569, 70, 50);
       
   //body
   fill(254,148,65);
